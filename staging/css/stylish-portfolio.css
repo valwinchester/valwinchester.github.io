@@ -36,7 +36,9 @@ body {
 
 p {
     max-width: 500px;
+    text-align:justify;
 }
+
 
 /* Custom Button Styles */
 
@@ -178,6 +180,9 @@ hr.small {
 .header-crystal {
     background: url(../img/crystal2.jpg) no-repeat center center scroll;
 }
+
+
+
 
 /* About */
 
