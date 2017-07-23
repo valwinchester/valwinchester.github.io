@@ -39,6 +39,12 @@ p {
     text-align:justify;
 }
 
+.bg-primary a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
 
 /* Custom Button Styles */
 
