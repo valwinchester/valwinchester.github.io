@@ -1,153 +1,463 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js' lang='en'>
-	<!--<![endif]-->
-	<head>
-		<meta charset='utf-8' />
-		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-		<title>Val Winchester - Coming Soon</title>	
-		
-		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="apple-touch-icon" href="images/favicon.png" />
-		
-		<link rel="stylesheet" href="css/maximage.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8" />
-		
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		
-		<!--[if IE 6]>
-			<style type="text/css" media="screen">
-				.gradient {display:none;}
-			</style>
-		<![endif]-->
-	</head>
-	<body>
+<html lang="en">
 
-		<!-- Social Links -->
-		<nav class="social-nav">
-			<ul>
-				<li><a href="https://facebook.com/yurtworkshopsandgroups/"><img src="images/icon-facebook.png" /></a></li>
-				<!--<li><a href="#"><img src="images/icon-twitter.png" /></a></li>
-				<li><a href="#"><img src="images/icon-google.png" /></a></li>
-				<li><a href="#"><img src="images/icon-dribbble.png" /></a></li>
-				<li><a href="#"><img src="images/icon-linkedin.png" /></a></li>
-				<li><a href="#"><img src="images/icon-pinterest.png" /></a></li>-->
-			</ul>
-		</nav>
+<head>
 
-		<!-- Switch to full screen -->
-		<button class="full-screen" onclick="$(document).toggleFullScreen()"></button>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-		<!-- Site Logo -->
-		<div id="logo">Val Winchester</div>
+    <title>Val Winchester - Holistic Therapies</title>
 
-		<!-- Main Navigation -->
-		<nav class="main-nav">
-			<ul>
-				<li><a href="#home" class="active">Home</a></li>
-				<!--<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>-->
-			</ul>
-		</nav>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-		<!-- Slider Controls -->
-		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" /></a>
-		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" /></a>
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
-		<!-- Home Page -->
-		<section class="content show" id="home">
-			<h1>Welcome</h1>
-			<h5>Our new site is coming soon!</h5>
-			<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate arcu sit amet sem venenatis dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse eu massa sed orci interdum lobortis. Vivamus rutrum.</p>-->
-			<!--<p><a href="#about">More info &#187;</a></p>-->
-		</section>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-		<!-- About Page -->
-		<!--<section class="content hide" id="about">
-			<h1>About</h1>
-			<h5>Here's a little about what we're up to.</h5>-->
-			<!--<p>Nullam quis arcu a elit feugiat congue nec non orci. Pellentesque feugiat bibendum placerat. Nullam eu massa in ipsum varius laoreet. Ut tristique pretium egestas. Sed sed velit dolor. Nam rhoncus euismod lorem, id placerat ipsum placerat nec. Mauris ut eros a ligula tristique lacinia non blandit metus. Sed vitae velit lorem, et scelerisque diam.</p>-->
-			<!--<p><a href="#">Follow our updates on Twitter</a></p>
-		</section>-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-		<!-- Contact Page -->
-		<!--<section class="content hide" id="contact">
-			<h1>Contact</h1>
-			<h5>Get in touch.</h5>
-			<p>Email: <a href="#">info@avenir.com</a><br />
-				Phone: 123.456.7890<br /></p>
-			<p>123 East Main<br />
-				New York, NY 12345</p>
-		</section>-->
-		
-		<!-- Background Slides -->
-		<div id="maximage">
-			<div>
-				<img src="images/backgrounds/bg-img-1.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<!--<div>
-				<img src="images/backgrounds/bg-img-2.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-3.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-4.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-5.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>-->
-		</div>
-		
-		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-		<script src="js/jquery.easing.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.fullscreen.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.ba-hashchange.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script type="text/javascript" charset="utf-8">
-			$(function(){
-				$('#maximage').maximage({
-					cycleOptions: {
-						fx: 'fade',
-						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
-						timeout: 5000,
-						prev: '#arrow_left',
-						next: '#arrow_right',
-						pause: 0,
-						before: function(last,current){
-							if(!$.browser.msie){
-								// Start HTML5 video when you arrive
-								if($(current).find('video').length > 0) $(current).find('video')[0].play();
-							}
-						},
-						after: function(last,current){
-							if(!$.browser.msie){
-								// Pauses HTML5 video when you leave it
-								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
-							}
-						}
-					},
-					onFirstImageLoaded: function(){
-						jQuery('#cycle-loader').hide();
-						jQuery('#maximage').fadeIn('fast');
-					}
-				});
-	
-				// Helper function to Fill and Center the HTML5 Video
-				jQuery('video,object').maximage('maxcover');
-	
-			});
-		</script>
-  </body>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#therapies" onclick=$("#menu-close").click();>Therapies</a>
+            </li>
+            <li>
+                <a href="#venues" onclick=$("#menu-close").click();>Venues</a>
+            </li>
+            <li>
+                <a href="#testimonials" onclick=$("#menu-close").click();>Testimonials</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header header-main">
+        <div class="text-vertical-center">
+            <h1>Val Winchester</h1>
+            <h3>Holistic Therapies</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Scroll down to learn more</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>About Val</h2>
+                    <p class="lead">Reflexology, Crystal Healing, Access Bars and Animal Communication</a>.
+                    </p>
+                    <p>
+                        Val Winchester began her training in 1996 at the Maureen Burgess School of Reflexology at
+                        Roehampton where she also qualified in Advanced Reflexology. Her interest in this therapy was
+                        sparked when some family members had become ill and she had watched a nurse perform some massage
+                        techniques which were helping tremendously.
+                    </p>
+                    <p>
+                        Val then went on to study at the International College of Crystal Healing where she qualified as
+                        a Crystal Therapist and learned meditation. Val has run Meditation Groups and workshops for many
+                        years which she enjoys immensely.
+                    </p>
+                    <p>
+                        As Val continued to see clients, she realised there was a further need in people as many of her
+                        clients were going through stressful times and indeed trauma. This led to her taking a Diploma
+                        in Spiritual Counselling and a Diploma in Hypnotherapy at the Holistic Healing College in London
+                        and the London College of Hypnotherapy. Val also trained in Ireland with Doreen Virtue as an
+                        Angel Therapy Practitioner and gives Angel Card Readings regularly.
+                    </p>
+                    <p>
+
+                        In March 2016 Val renewed her qualification in Reflexology for Fertility and now offers
+                        Pregnancy Reflexology to offer the full complement of Reflexology treatments in pregnancy and
+                        post-partum.
+                    </p>
+                    <p>
+
+                        Val qualified as an Access Consciousness Bars Practitioner in July 2015 and then in January 2016
+                        she qualified as an Access Bars Facilitator which allows Val to teach Bars classes. She has also
+                        completed the Access Energetic Facelift, Access Body Processes and the Access Foundation course
+                        as well which has given her more tools to work with during the Access Bars treatment.
+                    </p>
+                    <p>
+                        Val has a love of animals and has trained in Animal Communication and natural horsemanship
+                        techniques.
+                    </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="therapies" class="services bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>
+                        <strong>Reflexology & Crystal Reflexology</strong>
+                    </h2>
+                    <p>Reflexology is based on the principle that there are reflex points on the feet and
+                        hands and that by applying pressure to these points it can: 
+                    </p>
+                    <ul>
+                        <li>Relieve stress and tension</li>
+                        <li>Stimulate circulation and rid the body of toxins</li>
+                        <li>Bring the body into balance</li>
+                    </ul>
+                    <p>
+                        It is a very relaxing treatment which involves a beautiful massage of the feet combined 
+                        with pressure being applied to the reflex points in a way that is tailored to each 
+                        individual.
+                    </p>
+                    <p>
+                        When the use of crystals is combined with the Reflexology session, the whole treatment 
+                        is enhanced considerably.  Many clients who find it difficult to relax or switch off, 
+                        have found that they have a much deeper experience when the crystals are used.  </p>
+                    <a href="reflexology.html" class="btn btn-dark btn-lg">Find out more about Reflexology</a>
+                    <h2>
+                        <strong>Crystal Therapy</strong>
+                    </h2>
+                    <p>During a session of crystal therapy, crystals may be placed on the body, around the
+                        body or under the couch. This is mostly a “hands off” therapy where healing energies
+                        are then transmitted through the crystals. This is a very relaxing treatment and
+                        balances the energy field of the Client.
+                    </p>
+                        <p>Please <a href="#contact" >contact</a> Val if you wish to discuss specific requirements.</p>
+                    <a href="crystal_therapy.html" class="btn btn-dark btn-lg">Find out more about Crystal Therapy</a>
+                    <h2>
+                        <strong>Access Bars</strong>
+                    </h2>
+                    <h4>What is Access Bars?</h4>
+                    <p>The Bars are a series of 32 points on the head, which when lightly touched release
+                        old energies stuck in the brain and the body, allowing for tremendous and easy change.
+                    </p>
+                    <h4>What does an Access Bars session do?</h4>
+                    <p>The Bars takes all the considerations, thoughts, feelings, emotions, decisions,
+                        judgments, and beliefs from any lifetime, that are electrically stored in the brain
+                        and releases them. This release occurs when the bars are touched; it allows that
+                        stored junk to be released.
+                    </p>
+                    <a href="access.html" class="btn btn-dark btn-lg">Find out more about Access Bars</a>
+                    <h2>
+                        <strong>CPD Courses</strong>
+                    </h2>
+                    <h4>Using Crystals with Reflexology</h4>
+                    <p>Val also runs CPD (Continued Professional Development) Courses for Reflexologists and 
+                        Trainee Reflexologists.   If you take the one day course, you will be awarded with 12 
+                        CPD points.</p>
+
+                        <p>The CPD Course covers the following topics:<p>
+                        <ul>
+                            <li>Choosing and Cleansing Crystals</li>
+                            <li>Using Crystals in the Treatment Room</li>
+                            <li>Learning about Grounding Crystals</li>
+                            <li>The Crystal Pyramid</li>
+                            <li>Chakra Points on the body and the feet and using crystals on the feet</li>
+                            <li>Crystal Wands - Using these during a Reflexology session</li>
+                        </ul>
+                        <p><a href="cpd.html" class="btn btn-dark btn-lg">Find out more about CPD</a>
+                        or to book a CPD Course, please <a href="#contact" >contact</a> Val.</p>
+                        <h2>
+                            <strong>Animal Communication</strong>
+                        </h2>
+                        <p>Val qualified as an ACT2 Animal Communicator with James French in 2009.  Since then, 
+                            she has used it to help many horses, dogs and cats.  It can help with behavioural problems, 
+                            anxiety and illness and pain int he animal's body. It can also help the animal to pass over 
+                            when the time comes.</p> 
+                        <a href="animalcommunication.html" class="btn btn-dark btn-lg">Find out more about Animal Communication</a>
+                        <h2>Meditation Group, Healing and Relaxation Evenings in the Yurt</h2>
+                        <p>Val runs a regular Meditation Group in the Yurt every other Thursday at 8.00pm-9.30pm.</p>
+                        <p>This is a "drop in" group and all are welcome whether experienced or beginners.  During 
+                            the evenings, Val gives a guided meditation and also a space of stillness and silence 
+                            for each person to have their own experience.</p>
+                        <h4>Healing and Relaxation Evenings in the Yurt.</h4>
+                        <p>These evenings are held on the first Monday and Tuesday of each month.  The time is 
+                            8.00pm-9.30pm.  During these evenings, you are invited to lie down.  Val uses a special 
+                            Tibetan bowl to help bring you into the space and relax. Then some gentle music is played 
+                            and she gives healing to each individual as guided.</p>
+                        <a href="meditation.html" class="btn btn-dark btn-lg">Find out more about Meditation, Healing and Relaxation in the Yurt</a>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+
+    <!-- Portfolio -->
+    <section id="venues" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Venues</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <p>
+                                    Situated at the bottom of the garden, the Yurt is another amazing space in which to
+                                    receive your treatment.  This space is also used for activities such as Meditation
+                                    Groups, Pilates classes, various courses and Workshops.
+                                </p>
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/yurt.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <p>This peaceful, nurturing space is situated within the house and offers the perfect
+                                    environment to rest and relax whilst absorbing the healing energies within the room.
+                                    Most people comment on how just entering the room makes them feel better.</p>
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/healing-small.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <!--<a href="#" class="btn btn-dark">View More Items</a>-->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="about bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Testimonials</h2>
+                    <i>
+                    <p>
+                        "Meeting Val Winchester has changed my life. In March 2016, just after I launched my fitness
+                        business, I met Val by chance and she offered me the opportunity to hire her yurt for my
+                        Pilates classes. That was the start of a magical journey of self-discovery and life changing
+                        events - my Pilates classes have grown, Val introduced me to Access Bars Consciousness and
+                        facilitated my practitioner course in June 2016 and Val's amazing Mediation and Healing groups
+                        has given me inner peace and calmness. I also highly recommend Val's Reflexology treatment,
+                        which is not only a wonderful massage it also leaves you having a total body and mind connection."
+                    </p>
+                    <p>
+                        "Val's presence, healing energy, compassion, love and sense of humour leaves you feeling relaxed
+                        and a total sense of being. Thank you Val for being in my life."
+                    </p>
+                    <p>
+                        "I have known Valerie Winchester for at least 15 years and have found her meditation circles and 
+                        other healing practices to be excellent.Valerie is a diligent and caring person in all that she does, 
+                        always ready to help any who have questions, experiences etc.,    <br/>
+                        Valerie is herself highly experienced in this field as I have attended many of her meditation groups 
+                        where she has been professional in her conduct, knowing how to assist those with any issues that may 
+                        arise and very discreet in her ability to do so.<br/>
+                        I have no hesitation in recommending Valerie Winchester to run meditation courses and/or other healing 
+                        practices she is so capable of." - D Summer</p>
+                    <p>"I absolutely love Val's meditation groups! She manages to hold a relaxing, open and gentle space 
+                        for everyone no matter what comes up. I've been attending Val's groups for many years and I swear 
+                        by them as I always come away feeling clearer and energised." - Eleonora</p>
+                    <p>"I've been going to Val's meditation group for quite some time.<br/>
+                        What works for me is the gentleness and caring that I feel. I've been to quite a few other groups 
+                        but never felt so looked after. I never want to miss it. She makes sure we are comfortable, the 
+                        temperature is right, we have blankets, cushions if our feet don't touch the floor and water to drink.</br>
+                        I like the quiet atmosphere that Val creates. There is some sharing, which is minimal, as the whole 
+                        point for me is to sit and be with stillness. But it's good to hear ourselves speak our names and a 
+                        brief where we are.<br/>
+                        Every time we meet the meditations are different because of where I am and what's going on, So even 
+                        if my mind has been having a field day I know my body has been resting. Sometimes I am in such a lovely 
+                        peaceful place its a challenge to open my eyes and come back.<br/>
+                        Val tunes in usually to see what the group needs and her meditation flows from that. It always seems 
+                        more powerful in a group than sitting at home on my own.<br/>
+                        Music is often used and can really help soothe and uplift<br/>
+                        We pick an Angel card at the beginning which can help focus, sometimes we also pick a crystal to hold.<br/>
+                        At the end we often have a message from another card which we share, that's really helpful too hearing 
+                        all the card's messages.<br/>
+                        Val is very particular about closing down and she introduces it so gently its like having another mini 
+                        quiet time. It is something I often forget to do after leaving a group and sometimes when I am out I 
+                        remember some of Val's words.<br/>
+                        If Val is going to do another meditation group, let me know where!" - M Weatherall</p>
+                        <p>"I have been taking part in Val's Meditation group for over ten years. Every session has a different 
+                            theme using soothing music, crystals and / or Angel Cards. She leads us excellently into the 
+                            meditations and guides us back, offering possible reasons for our individual experiences and allowing 
+                            discussion within the group.<br/>
+                        Val ensures we drink plenty of water and is always calm,caring and considerate towards each member of 
+                        the group.<br/>
+                        I have found an oasis from the hubbub of everyday life and take away a feeling tranquility each time I 
+                        visit Val's meditation group .  I highly recommend her Meditation Sessions." - Sue Towersey</p>
+                    </i>
+
+                    </p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <!--<aside class="call-to-action bg-primary">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-12 text-center">-->
+                    <!--<h3>The buttons below are impossible to resist.</h3>-->
+                    <!--<a href="#" class="btn btn-lg btn-light">Click Me!</a>-->
+                    <!--<a href="#" class="btn btn-lg btn-dark">Look at Me!</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</aside>-->
+
+    <!--&lt;!&ndash; Map &ndash;&gt;-->
+    <!--<section id="contact" class="map">-->
+        <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>-->
+        <!--<br />-->
+        <!--<small>-->
+            <!--<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>-->
+        <!--</small>-->
+    <!--</section>-->
+
+    <!-- Footer -->
+    <section id="contact">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>If you wish to contact Val about any of the above therapies please contact by phone or email</strong>
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i>07722 646 581</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:Angeldelight207@aol.com"> Angeldelight207@aol.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://facebook.com/yurtworkshopsandgroups/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Ben Oxley 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
 </html>
