@@ -171,7 +171,7 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 50%;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -188,7 +188,7 @@ hr.small {
 }
 
 .header-yurt {
-    background: url(../img/yurt.png) no-repeat center center scroll;
+    background: url(../img/yurt-video.png) no-repeat center center scroll;
 }
 
 
